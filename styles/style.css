@@ -86,7 +86,7 @@ body {
     display: flex;
     justify-content: center;
     border: 2px solid var(--cor-terciaria);
-    width:378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
@@ -100,6 +100,10 @@ body {
 
 .apresentacao__links__botao:hover {
     background-color: var(--cor-hover);
+}
+
+.apresentacao__imagem {
+    width: 50%;
 }
 
 .rodape{
